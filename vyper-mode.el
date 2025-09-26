@@ -114,7 +114,7 @@
   (setq-local font-lock-defaults
               '(vyper-font-lock-keywords))
   (setq-local tab-width 4)
-  (setq-local indent-tabs-mode nil)
+  (setq-local indent-tabs-mode t)
   (setq-local comment-start "# ")
   (setq-local comment-start-skip "#+\\s-* "))
 
